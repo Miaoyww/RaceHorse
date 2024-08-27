@@ -1,0 +1,11 @@
+name: RaceHorse
+version: '1.0-SNAPSHOT'
+main: com.miaoyww.raceHorse.RaceHorse
+api-version: '1.20'
+commands:
+    race:
+        description: RaceHorse command
+        usage: /race
+        permission: racehorse.command
+        aliases:
+        - rc
